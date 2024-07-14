@@ -14,6 +14,8 @@ jobs:
             - name: list the files
               run: |
                ls -lrt
-               echo test
-               echo values.yml
+               cat test
+               cat values.yml
+               cat app.py
+               cat Dockerfile
                pwd 
