@@ -14,8 +14,6 @@ jobs:
             - name: list the files
               run: |
                ls -lrt
-               cat test
-               cat values.yml
                cat app.py
                cat Dockerfile
                pwd 
